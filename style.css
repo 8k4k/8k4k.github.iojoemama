@@ -40,7 +40,6 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
     margin-left: 2cm;
     margin-right: 2cm;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
 }
 
 .to {
