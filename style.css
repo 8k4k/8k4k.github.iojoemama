@@ -18,7 +18,7 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
     padding: 15px 15px;
     text-align: center;
     font-size: larger;
-    font-weight: bolder;
+    font-weight: bold;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
@@ -35,3 +35,14 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
   }
  
 
+.grid {
+    display: grid;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.to {
+    vertical-align: bottom;
+}
