@@ -5,15 +5,12 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
 
 }
 
-.bold {
-    font-weight: bolder;
-}
 .nav-link {
-    font-size: larger;
+    font-size: large;
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #1230a8 0%, #bfe9ff  51%, #1230a8  100%);
+    background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC  51%, #8EC5FC  100%);
     margin: 1cm;
     padding: 15px 15px;
     text-align: center;
@@ -22,7 +19,7 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: rgb(255, 255, 255);            
     box-shadow: 0 0 0px #eee;
     border-radius: 10px;
     display: block;
@@ -77,13 +74,16 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2cm;
-    background-image: linear-gradient(to left, #8EC5FC 0%, #E0C3FC 100%);
     align-items: center;
 }
 
-.to {
-    vertical-align: bottom;
+
+.active {
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 0px;
 }
+
 /* 
 .card-img-top {
     display: block;
