@@ -55,8 +55,17 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
 }
 }
 
+@media screen and (max-width:600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card {
+        max-width: 270px;
+}
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width:500px) {
     .grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
