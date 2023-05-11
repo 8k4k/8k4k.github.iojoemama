@@ -37,11 +37,60 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
 
 .grid {
     display: grid;
-    margin-left: 2cm;
-    margin-right: 2cm;
     grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 1000px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card {
+        max-width: 235px;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card {
+        max-width: 250px;
+}
+}
+
+
+
+
+.he {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2cm;
+    background-image: linear-gradient(to left, #8EC5FC 0%, #E0C3FC 100%);
+    align-items: center;
 }
 
 .to {
     vertical-align: bottom;
 }
+/* 
+.card-img-top {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+} */
+
+.card-img-top:hover {
+    box-shadow: 0 0 2px 1px rgba(49, 49, 49, 0.5);
+  }
