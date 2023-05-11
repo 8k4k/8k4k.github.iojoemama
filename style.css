@@ -40,7 +40,7 @@ background-image: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
     grid-template-columns: repeat(3, 1fr);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
