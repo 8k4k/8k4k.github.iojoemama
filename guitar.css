@@ -17,14 +17,35 @@ background-image: linear-gradient(to right, #b88bff 0%, #8052ff 100%);
 }
 .cg {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+                  "img header"
+                  "img txt" ;
+}
+@media screen and (max-width: 500px){ 
+    .cg {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+                      "img header txt" ;
+    }
+}
+#grid > img {
+    grid-area: img;
+}
+#grid > h1 {
+    grid-area: header;
+}
+#grid > p {
+    grid-area: txt;
 }
 #cg {
     width: 400px;
 }
-#cg-txt {
-    margin-top: 3cm;
+#cg-head {
+    align-self: self-end;
     margin-left: 1cm;
+    margin-bottom: 1cm;
 }
 
 
