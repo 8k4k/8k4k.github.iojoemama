@@ -15,9 +15,17 @@ body {
 background-image: linear-gradient(to right, #b88bff 0%, #8052ff 100%);
 
 }
-
-
-
+.cg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#cg {
+    width: 400px;
+}
+#cg-txt {
+    margin-top: 3cm;
+    margin-left: 1cm;
+}
 
 
 
