@@ -25,9 +25,8 @@ background-image: linear-gradient(to right, #b88bff 0%, #8052ff 100%);
 @media screen and (max-width: 500px){ 
     .cg {
         display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas:
-                      "img header txt" ;
+        grid-template-columns: repeat(1, );
+        grid-template-rows: repeat(3, );
     }
 }
 #grid > img {
